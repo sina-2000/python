@@ -1,0 +1,20 @@
+a=str(input("name dars aval ra vared kon: "))
+b=int(input("nomre dars aval ra vared kon: "))
+c=int(input("teddade vahed darse aval ra vared konid: "))
+d=str(input("name dars dovom ra vared kon: "))
+e=int(input("nomre dars dovom ra vared kon: "))
+f=int(input("teddade vahed darse dovom ra vared kon: "))
+g=str(input("name dars sevom ra vared konid: "))
+h=int(input("nomre dars sevom ra vared kon: "))
+i=int(input("teddade vahed darse sevom ra vared kon: "))
+j=b*c
+k=e*f
+l=h*i
+m=c+f+i
+n=j+k+l
+o=n/m
+print(o)
+if o>17:
+  print("zerangh")
+if o<12:
+  print("mashroti")

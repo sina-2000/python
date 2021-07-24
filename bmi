@@ -1,0 +1,19 @@
+#ketabkhane "colorama" ra nasb kon
+
+
+x=float(input("vazn br hasb kg ra vared kon: "))
+y=float(input("gad br hasb m ra vared kon: "))
+z=float(y*y)
+q=(x/z)
+print(q)
+from colorama import init, AnsiToWin32, Fore, Back
+if q<18.5:
+  print(Fore.CYAN,"under weight")
+if 18.5<q<25:
+  print(Fore.GREEN,"normal weight")
+elif 20<q<30:
+  print(Fore.YELLOW,"over weight")
+if 30<q<40:
+  print(Fore.BLUE,"obesity")
+elif q>40:
+  print(Fore.RED,"morbidly obesity")

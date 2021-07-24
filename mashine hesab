@@ -1,0 +1,15 @@
+a=float(input("adad aval ra vared konid: "))
+b=float(input("adade dighar ra vared konid: "))
+z=str(input("amalgar ra vared kon: "))
+if z==("+"):
+  print(a+b) 
+elif z==("-"):
+  print(a-b)
+if z==("*"):
+  print(a*b)
+elif z==("/"):
+  print(a/b)
+if z==("^"):
+   print(a^b) 
+elif z==("//"):
+  print(a+b)

@@ -1,0 +1,12 @@
+#dictionary kalme 
+d= {}
+x=int (input ("tedad estefade ?"))
+for i in range(x):
+    print("run",i+1)
+    sen =input("kalame:")
+    if d.get(sen,False)==False:
+        print("kalame",sen,"vojod nadarad")
+        sen2= input("model ra xodetan vared konid")
+        d[sen]=sen2
+    else:
+        print(sen,"====>",d[sen])

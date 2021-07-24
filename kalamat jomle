@@ -1,0 +1,4 @@
+list=(input("jomle ra vared konid:"))
+f=list.split(" ")
+print(f)
+print("tedade kalamate jomle barabar ast ba: ",len(f))
